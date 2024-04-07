@@ -2,13 +2,13 @@
 
 ### Animated Bubble Chart
 
-![Animated Bubble Chart](/design/examples/animatedBubbleChart.gif)
+![Animated Bubble Chart](/design/examples/media/animatedBubbleChart.gif)
 
 ---
 
 ### Animated Line Chart
 
-![Animated Line Chart](/design/examples/animatedLineChart.gif)
+![Animated Line Chart](/design/examples/media/animatedLineChart.gif)
 
 ---
 
@@ -16,7 +16,7 @@
 
 [Pinellas County’s Public School Inequalities For Black Pupils](https://projects.tampabay.com/projects/2015/investigations/pinellas-failure-factories/chart-failing-black-students/)
 
-![Snapshot](/design/examples/Why-Pinellas-County-is-the-Worst-Place-in-Florida-to-be-Black-and-go-to-Public-School1.png)
+![Snapshot](/design/examples/media/Why-Pinellas-County-is-the-Worst-Place-in-Florida-to-be-Black-and-go-to-Public-School1.png)
 
 ---
 
@@ -24,4 +24,4 @@
 
 [Largest Vocabulary in Hip Hop](https://pudding.cool/projects/vocabulary/)
 
-![Snapshot](/design/examples/Hip-Hop-Vocabulary.png)
+![Snapshot](/design/examples/media/Hip-Hop-Vocabulary.png)

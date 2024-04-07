@@ -2,17 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>F2xDV Group Project Template</title>
-
-    <script src="lib/d3/d3.v7.min.js"></script>
-    <link rel="stylesheet" href="styles/main.css">
-</head>
+    <link rel="stylesheet" type="text/css" href="styles/main.css"></link>
+    <title>F20DV - Group 9</title>
+    <script src='https://d3js.org/d3.v7.min.js'></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"></head>
 <body>
+    <header>
+        <h1>Analyzing Effectiveness of the COVID-19 Vaccine</h1>
+    </header>
+
+    <section class="section-1">
+
+        <div class="sub-section">
+            
+            <div class="pie">
+                <p class="pie-title">Total Cases Across the World by Year </p>
+                <div id="pie-viz"></div>
+            </div>
+
+            <div class="line">
+                <div id="line-viz"></div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="map">
+            <p class="map-title">Number of confirmed Covid-19 cases per million people each year</p>
+            <div id="map-viz"></div>
+            <img src="images/mapLegend.png" alt="Number of confirmed Covid-19 cases per million people each year" class="map-bottom">        
+        </div>
+        
+    </section>
     
-    <div id="app"></div>
+    <section class="section-2">
+        
+        <div class="bubble">
+            <p class="bubble-title">Relationship Between the Deaths per Million and Total Vaccines</p>
+            <div id="bubble-chart-viz"></div>
+        </div>
+        
+        <div class="bar">
+            <p class="bar-title">Percentage of People Vaccinated In Each Continent</p>
+            <div id="bar-chart"></div>
+            <div class="tooltipBAR"></div>
+        </div>
+        
+    </section>
+    
+    <script src="scripts/map.js"></script>
+    <script src="scripts/line.js"></script>
+    <script src="scripts/piechart.js"></script>
+    <script src="scripts/data.js"></script>
+    <script src="scripts/bubbleChart.js"></script>
+    <script src="scripts/BarChart.js"></script>    
 
-
-    <script type="module" src="scripts/main.js"></script>
 </body>
 </html>

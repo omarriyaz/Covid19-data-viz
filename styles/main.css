@@ -1,4 +1,149 @@
-*{
-    color: #222;
-    font-family: sans-serif;
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #242338;
+    border-top: 1px solid #af3d86;
+    border-bottom: 1px solid #af3d86;
+    box-shadow: 0 5px 10px #1b1a29, 0 -5px 10px #1b1a29;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff7f3;
+    
+}
+
+body {
+    background-color: #202031;
+    font-family: 'Inter';
+}
+
+.section-1 {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    background-color: #202031;
+}
+
+.sub-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #242338;
+    box-shadow: 5px 5px 10px #1b1a29, -5px 5px 10px #1b1a29;
+    
+}
+
+.pie {
+    background-color: #242338;
+    border-top: 1px solid #af3d86;    
+}
+
+.pie-title {
+    color: #fff7f3;
+    bottom: 1em;
+    font-size: 1em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.line {
+    background-color: #242338;
+    border-top: 1px solid #af3d86;    
+
+}
+
+.line-svg {
+    padding: 1em 2em;
+}
+
+.map {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #242338;
+    border-top: 1px solid #af3d86;
+    box-shadow: 5px 5px 10px #1b1a29, -5px 5px 10px #1b1a29;
+}
+
+.map-title {
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff7f3;
+}
+
+#map {
+    height: 100%;
+    position: relative;
+}
+
+.map-bottom {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 1.8em;
+}
+
+
+
+.section-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    background-color: #202031;
+}
+
+.bubble {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #242338;
+    border-top: 1px solid #af3d86;
+    box-shadow: 5px 5px 10px #1b1a29, -5px 5px 10px #1b1a29;
+}
+
+.bubble-title {
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff7f3;
+}
+
+#bubble-viz {
+    margin: 0;
+    width: 100%;
+}
+
+.bubble-svg {
+    width: 100%;
+    padding: 0 2em;
+}
+
+.bar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #242338;
+    border-top: 1px solid #af3d86;
+    box-shadow: 5px 5px 10px #1b1a29, -5px 5px 10px #1b1a29;
+}
+
+.bar-title {
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff7f3;
+}
+
+
+.tooltipBAR{
+    border: 1px solid #242338;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #242338;
 }
